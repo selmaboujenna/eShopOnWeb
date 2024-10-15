@@ -5,10 +5,10 @@ on: [push, workflow_dispatch]
 
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
-  RESOURCE-GROUP: RESOURCE-GROUP
+  RESOURCE-GROUP: boujenna_selma-rg
   LOCATION: westeurope
   TEMPLATE-FILE: infra/webapp.bicep
-  SUBSCRIPTION-ID: SUBSCRIPTION-ID
+  SUBSCRIPTION-ID: ${{ secrets.AZURE_CREDENTIALS }}
   WEBAPP-NAME: eshoponweb-webapp-19785
 
 
