@@ -9,7 +9,7 @@ env:
   LOCATION: westeurope
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: ${{ secrets.SUB_ID }}
-  WEBAPP-NAME: eshoponweb-webapp-19785
+  WEBAPP-NAME: eshoponweb-webapp-lakish7549641254138
 
 
 jobs:
