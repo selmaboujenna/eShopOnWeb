@@ -8,7 +8,7 @@ env:
   RESOURCE-GROUP: boujenna_selma-rg
   LOCATION: westeurope
   TEMPLATE-FILE: infra/webapp.bicep
-  SUBSCRIPTION-ID: ${{ secrets.AZURE_CREDENTIALS }}
+  SUBSCRIPTION-ID: ${{ secrets.SUB_ID }}
   WEBAPP-NAME: eshoponweb-webapp-19785
 
 
